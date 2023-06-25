@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.rateyo.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-inner">
+                    <nav class="menu">
+                        <button class="menu-btn">
+                            <div class="menu-btn-line"></div>
+                            <div class="menu-btn-line"></div>
+                            <div class="menu-btn-line"></div>
+                        </button>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <a href="C:\Users\matv1\FishingArea\catalog.html" class="menu-link">
+                                    Магазини
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Акції
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Доставка та оплата
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="logo" href="#">
+                        <img class="logo-img" src="img/logo.svg" alt="">
+                    </a>
+                    <div class="header-box">
+                        <p class="header-adress">Львів вул.Перемоги 31
+                        </p>
+                        <ul class="user-list">
+                            <li class="user-list-item">
+                                <a class="user-list-link" href="#">
+                                    <img src="img/heart.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="user-list-item">
+                                <a class="user-list-link" href="#">
+                                    <img src="img/shadow.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="user-list-item">
+                                <a class="user-list-link basket" href="#">
+                                    <img src="img/buy-box.svg" alt="">
+                                    <p class="basket-num">1</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="menu-mobile-list">
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <img class="menu-mobile-img" src="img/shadow.svg" alt="">
+                    <p>Ввійти</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <img class="menu-mobile-img" src="img/shadow.svg" alt="">
+                    <p>Реєстрація</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <img class="menu-mobile-img" src="img/heart.svg" alt="">
+                    <p>Обране</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <img class="menu-mobile-img" src="img/buy-box.svg" alt="">
+                    <p>Корзина</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <img class="menu-mobile-img" src="img/house.svg" alt="">
+                    <p>Магазини</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <img class="menu-mobile-img" src="img/%.svg" alt="">
+                    <p>Акції</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <img class="menu-mobile-img" src="img/box-open.svg" alt="">
+                    <p>Доставка та оплата</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <p>Квадроцикли</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <p>Катери</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <p>Гідроцикли</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <p>Лодки</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <p>Всюдиходи</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <p>Снігоходи</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <p>Двигуни</p>
+                </a>
+            </li>
+            <li class="menu-mobile-item">
+                <a class="menu-mobile-link" href="#">
+                    <p>Запчастини</p>
+                </a>
+            </li>
+        </ul>
+        <div class="menu-mobile-linewrapper">
+            <ul class="menu-mobile-line">
+                <li class="menu-item">
+                    <a href="C:\Users\matv1\FishingArea\catalog.html" class="menu-link">
+                        Магазини
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        Акції
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        Доставка та оплата
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom-inner">
+                    <ul div class="menu-categories">
+                        <li class="menu-categories-item">
+                            <a href="#" class="menu-categories-link">Квадроцикли</a>
+                        </li>
+                        <li class="menu-categories-item">
+                            <a href="#" class="menu-categories-link">Катери</a>
+                        </li>
+                        <li class="menu-categories-item">
+                            <a href="#" class="menu-categories-link">Гідроцикли</a>
+                        </li>
+                        <li class="menu-categories-item">
+                            <a href="#" class="menu-categories-link">Лодки</a>
+                        </li>
+                        <li class="menu-categories-item">
+                            <a href="#" class="menu-categories-link">Всюдиходи</a>
+                        </li>
+                        <li class="menu-categories-item">
+                            <a href="#" class="menu-categories-link">Снігоходи</a>
+                        </li>
+                        <li class="menu-categories-item">
+                            <a href="#" class="menu-categories-link">Двигуни</a>
+                        </li>
+                        <li class="menu-categories-item">
+                            <a href="#" class="menu-categories-link">Запчастини</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs-inner">
+                <ul class="breadcrumbs-list mobile-overflow">
+                    <li class="breadcrumbs-list-item"><a href="#">Головна</a></li>
+                    <li class="breadcrumbs-list-item"><a href="#">Гідроцикли</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section class="catalog">
+        <div class="container">
+            <h2 class="catalog-title">Гідроцикли</h2>
+            <div class="catalog-filter">
+                <div class="catalog-filter-itemsinner">
+                    <div class="catalog-filter-items mobile-overflow">
+                        <button>Повнопривідні</button>
+                        <button>від 5000</button>
+                        <button>BRP</button>
+                        <button>ще</button>
+                    </div>
+                </div>
+                <div class="catalog-filter-btn">
+                    <select class="filter-styler select-item">
+                        <option value="">За популярністю</option>
+                        <option value="">За ціною</option>
+                        <option value="">За розміром</option>
+                    </select>
+                    <button class="catalog-filter-btngrid catalog-filter-button catalog-filter-button--active">
+                        <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1" y="1" width="21" height="19" stroke="#2F3035" stroke-width="2"/>
+                            <rect x="7" y="6" width="2" height="2" fill="#2F3035" stroke="#2F3035" stroke-width="2"/>
+                            <rect x="7" y="13" width="2" height="2" fill="#2F3035" stroke="#2F3035" stroke-width="2"/>
+                            <rect x="14" y="6" width="2" height="2" fill="#2F3035" stroke="#2F3035" stroke-width="2"/>
+                            <rect x="14" y="13" width="2" height="2" fill="#2F3035" stroke="#2F3035" stroke-width="2"/>
+                            </svg>
+                    </button>
+                    <button class="catalog-filter-btnline catalog-filter-button">
+                        <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.3">
+                            <rect x="6" width="19" height="3" rx="1.5" fill="#2F3035"/>
+                            <rect x="6" y="8" width="19" height="3" rx="1.5" fill="#2F3035"/>
+                            <rect x="6" y="16" width="19" height="3" rx="1.5" fill="#2F3035"/>
+                            <rect width="3" height="3" rx="1.5" fill="#2F3035"/>
+                            <rect y="8" width="3" height="3" rx="1.5" fill="#2F3035"/>
+                            <rect y="16" width="3" height="3" rx="1.5" fill="#2F3035"/>
+                            </g>
+                            </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="catalog-inner">
+                <div class="aside-btn">
+                    Фільтp
+                </div>
+                <aside class="catalog-inner-aside aside-filter">
+                    <div class="tabs-wrapper tabs-wrapper-no-scroll">
+                        <div class="tabs aside-filter-tabs">
+                            <a href="#filter-1" class="tab aside-filter-tab tab--active"><span>Параметри</span></a>
+                            <a href="#filter-2" class="tab aside-filter-tab"><span>За маркою</span></a>
+                        </div>
+                    </div>
+                        <div class="tabs-container">
+                            <div id="filter-1" class="tabs-content aside-filter-tabs-content tabs-content--active">
+                                <form class="aside-filter-form">
+                                    <ul class="aside-filter-list">
+                                        <li class="aside-filter-item-drop">
+                                            <p class="aside-filter-item-title  filter-item-drop filter-item-drop--active">Наявність</p>
+                                            <div class="aside-filter-content">
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        В наявності
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        Під замовлення
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="aside-filter-item-drop">
+                                            <p class="aside-filter-item-title  filter-item-drop filter-item-drop--active">Новинки</p>
+                                            <div class="aside-filter-content aside-filter-content-radio">
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" name="radio" type="radio">
+                                                        Всі
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" name="radio" type="radio">
+                                                        Новинки
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" name="radio" type="radio">
+                                                        Акції
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="aside-filter-item-drop">
+                                            <p class="aside-filter-item-title  filter-item-drop filter-item-drop--active">Ціна</p>
+                                            <div class="aside-filter-content">
+                                                <input type="text" class="js-range-slider" name="my_range" value="" data-min="100000" data-max="500000" data-from="150000" data-to="275000" />
+                                            </div>
+                                        </li>
+                                        <li class="aside-filter-item-list">
+                                            <div class="filter-item-list">
+                                                <p class="filter-item-listtitle">
+                                                    Потужність, к.с.
+                                                </p>
+                                                <select class="filter-style filter-item-listselect">
+                                                    <option>90</option>
+                                                    <option>130</option>
+                                                    <option>154</option>
+                                                    <option>230</option>
+                                                </select>
+                                            </div>
+                                            <div class="filter-item-list">
+                                                <p class="filter-item-listtitle">
+                                                    Потужність двигуна, л.с.
+                                                </p>
+                                                <select class="filter-style filter-item-listselect">
+                                                    <option>90</option>
+                                                    <option>130</option>
+                                                    <option>154</option>
+                                                    <option>230</option>
+                                                </select>
+                                            </div>
+                                            <div class="filter-item-list">
+                                                <p class="filter-item-listtitle">
+                                                    Максимальна швидкість, км/год
+                                                </p>
+                                                <select class="filter-style filter-item-listselect">
+                                                    <option>90</option>
+                                                    <option>130</option>
+                                                    <option>154</option>
+                                                    <option>230</option>
+                                                </select>
+                                            </div>
+                                        </li>
+                                        <li class="aside-filter-item-drop">
+                                            <p class="aside-filter-item-title  filter-item-drop filter-item-drop--active">Бренд</p>
+                                            <div class="aside-filter-content">
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        ВRP
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        Sparc 2
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        Sparc 3
+                                                    </label>
+                                                </div>
+                                                <div class="filter-more">
+                                                    <button class="filter-more-btn" href="#">показати ще</button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="aside-filter-item-drop">
+                                            <p class="aside-filter-item-title  filter-item-drop filter-item-drop--active">Моодель</p>
+                                            <div class="aside-filter-content">
+                                                <input class="filter-search" type="text" placeholder="Введіть модель">
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox" checked>
+                                                        Модель 1
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox" checked>
+                                                        Модель 2
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        Модель 1
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        Модель 2
+                                                    </label>
+                                                </div>
+                                                <div class="filter-more">
+                                                    <button class="filter-more-btn" href="#">показати ще</button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="aside-filter-item-drop btn-checked">
+                                            <p class="aside-filter-item-title  filter-item-drop filter-item-drop--active">Акції</p>
+                                            <div class="aside-filter-content">
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        <span class="btn-checked-text">SALE</span>
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        <span class="btn-checked-text">NEW</span>
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        <span class="btn-checked-text">HIT</span>
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        <span class="btn-checked-text">DILLER</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="aside-filter-item-drop">
+                                            <p class="aside-filter-item-title  filter-item-drop filter-item-drop--active">Країни</p>
+                                            <div class="aside-filter-content">
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox" checked>
+                                                        Україна
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        Китай
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        Англія
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter-content-box">
+                                                    <label class="aside-filter-content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        CША
+                                                    </label>
+                                                </div>
+                                                <div class="filter-more">
+                                                    <button class="filter-more-btn" href="#">показати ще</button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="aside-filter-item-drop aside-filter-item-btn">
+                                            <button class="filter-btn-send filter-btn-send--active" type="submit">Вибрати</button>
+                                            <p class="filter-extra">Додаткові параметри</p>
+                                            <div class="filter-extra-content">more</div>
+                                            <button class="filter-btn-reset" type="submit">Скинути фільтр</button>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                            <div id="filter-2" class="tabs-content aside-filter-tabs-content">content-2</div>
+                    </div>
+                </aside>
+                <div class="catalog-inner-list">
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро1.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item product-item--sale" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро2.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро3.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро4.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро5.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро6.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро7.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро8.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро9.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро10.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро11.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="product-item-wrapper">
+                        <button class="product-item-favourite"></button>
+                        <button class="product-item-basket">
+                            <img src="img/basket-white.svg" alt="">
+                        </button>
+                        <a class="product-item-notify-link" href="#">
+                            <span>повідомити про наявність</span>
+                        </a>
+                            <a class="product-item" href="">
+                                <p class="product-item-hover-text">оглянути товар</p>
+                            <img class="product-item-img" src="img/content/гідро12.png" alt="">
+                            <h4 class="product-item-title">Гiдроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                            </h4>
+                            <p class="product-item-price price">19 999$</p>
+                            <p class="product-item-notify-text">нема в наявності</p>
+                        </a>
+                    </div>
+                    <div class="pagination">
+                        <ul class="pagination-list">
+                            <li class="pagination-list-item active"><a href="#">1</a></li>
+                            <li class="pagination-list-item"><a href="#">2</a></li>
+                            <li class="pagination-list-item"><a href="#">3</a></li>
+                            <li class="pagination-list-item"><a href="#">4</a></li>
+                            <li class="pagination-list-item"><a href="#">5</a></li>
+                            <li class="pagination-list-item pagination-list-item--dots"><span>...</span></li>
+                            <li class="pagination-list-item"><a href="#">11</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+        <div class="footer-top">
+            <div class="footer-top-inner">
+                <div class="footer-top-item footer-top-newslatter">
+                    <h6 class="footer-top-title">Підпишіться на нашу розсилку та дізнавайтесь про акції скоріше</h6>
+                    <form class="footer-form">
+                        <input class="footer-form-input" type="text" placeholder="Введіть Ваш e-mail:">
+                        <button class="footer-form-btn" type="submit">Відправити</button>
+                    </form>
+                </div>
+                <div class="footer-top-item footer-top-itemdrop">
+                    <h6 class="footer-top-title footer-topdrop">Інформація</h6>
+                    <ul class="footer-list">
+                        <li class="footer-list-item"><a href="#">Про компанію</a></li>
+                        <li class="footer-list-item"><a href="#">Контакти</a></li>
+                        <li class="footer-list-item"><a href="#">Акції</a></li>
+                        <li class="footer-list-item"><a href="#">Магазини</a></li>
+                    </ul>
+                </div>
+                <div class="footer-top-item">
+                    <h6 class="footer-top-title footer-topdrop">Інтернет магазин</h6>
+                    <ul class="footer-list">
+                        <li class="footer-list-item"><a href="#">Доставка та самовиніс</a></li>
+                        <li class="footer-list-item"><a href="#">Оплата</a></li>
+                        <li class="footer-list-item"><a href="#">Повернення-обмін</a></li>
+                        <li class="footer-list-item"><a href="#">Новини</a></li>
+                    </ul>
+                </div>
+                <div class="footer-top-item">
+                    <ul class="social-list">
+                        <li class="social-list-item"><a href="#"><img src="img/instagram.svg" alt=""></a></li>
+                        <li class="social-list-item"><a href="#"><img src="img/facebook.svg" alt=""></a></li>
+                        <li class="social-list-item"><a href="#"><img src="img/youtube.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="footer-bottom">
+                <a class="footer-bottom-link" href="#">Договір офферти</a>
+                <a class="footer-bottom-link" href="#">Політика обробки персональних даних</a>
+            </div>
+        </div> 
+    </footer>
+
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/ion.rangeSlider.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/jquery.rateyo.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
